@@ -7,7 +7,7 @@ Visit the live interface over at ![Huggingface Spaces](https://huggingface.co/sp
 This project is a modification of Chapter 2 from the ![fastai Course](https://course.fast.ai/Lessons/lesson2.html). It was initially designed as a bear, black bear, or teddy bear classifier, but things were modified to classify chess pieces instead. In doing this, I learned quite a bit and I would like to save these lessons learned here in this repo for future reference.
 
 ### The Beginning
-Initially, I only downloaded 100 images from DuckDuckGo for chess different type of chess piece, that is, 100 images of black pawns, black knights, white rooks, etc. From the course I learned that it is often a good idea just to try and train the model without any data cleaning, because your results may already be quite powerful. Unfortunately in my case, this was not true:
+Initially, I only downloaded 100 images from DuckDuckGo for each different type of chess piece, that is, 100 images of black pawns, black knights, white rooks, etc. From the course I learned that it is often a good idea just to try and train the model without any data cleaning, because your results may already be quite powerful. Unfortunately in my case, this was not true:
 
 ```
 epoch  train_loss  valid_loss  error_rate  time
