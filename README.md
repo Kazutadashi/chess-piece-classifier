@@ -3,7 +3,7 @@ This program was created to classify images of singular chess pieces based off i
 ### How to use
 Visit the live interface over at ![Huggingface Spaces](https://huggingface.co/spaces/Kazutadashi/chess-piece-classifier) and upload an image of a chess piece. After submitting you will be presented with your results. 
 
-Note that I did not include the training images due to copyright. 
+Note that I did not include the training images due to copyright. The final model is also too big for GitHub. The export.pkl file however is located on the Huggingface Spaces website.
 
 # About This Project
 This project is a modification of Chapter 2 from the ![fastai Course](https://course.fast.ai/Lessons/lesson2.html). It was initially designed as a bear, black bear, or teddy bear classifier, but things were modified to classify chess pieces instead. In doing this, I learned quite a bit and I would like to save these lessons learned here in this repo for future reference.
