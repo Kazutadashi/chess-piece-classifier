@@ -1,12 +1,12 @@
 # Chess Piece Classifier
 This program was created to classify images of singular chess pieces based off images of that chess piece. For example, if you take a picture of a Pawn, and feed it into the model, you will get the probability the model thinks its a Pawn, along with its guess as to what the piece actually is. This model was created using the fastai library, and fine tuned on resnet18
 ### How to use
-Visit the live interface over at ![Huggingface Spaces](https://huggingface.co/spaces/Kazutadashi/chess-piece-classifier) and upload an image of a chess piece. After submitting you will be presented with your results. 
+Visit the live interface over at [Huggingface Spaces](https://huggingface.co/spaces/Kazutadashi/chess-piece-classifier) and upload an image of a chess piece. After submitting you will be presented with your results. 
 
 Note that I did not include the training images due to copyright. The final model is also too big for GitHub. The export.pkl file however is located on the Huggingface Spaces website.
 
 # About This Project
-This project is a modification of Chapter 2 from the ![fastai Course](https://course.fast.ai/Lessons/lesson2.html). It was initially designed as a bear, black bear, or teddy bear classifier, but things were modified to classify chess pieces instead. In doing this, I learned quite a bit and I would like to save these lessons learned here in this repo for future reference.
+This project is a modification of Chapter 2 from the [fastai Course](https://course.fast.ai/Lessons/lesson2.html). It was initially designed as a bear, black bear, or teddy bear classifier, but things were modified to classify chess pieces instead. In doing this, I learned quite a bit and I would like to save these lessons learned here in this repo for future reference.
 
 ### The Beginning
 Initially, I only downloaded 100 images from DuckDuckGo for each different type of chess piece, that is, 100 images of black pawns, black knights, white rooks, etc. From the course I learned that it is often a good idea just to try and train the model without any data cleaning, because your results may already be quite powerful. Unfortunately in my case, this was not true:
